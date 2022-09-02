@@ -1,2 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Padauk:wght@400;700&display=swap');
+
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"; 
+
+$font-family-sans-serif : 'Montserrat', 'Padauk', sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+.btnDel{
+    display: none;
+    transition: 0.5s;
+}
+#rows tr:hover .btnDel{
+    display: block;
+}
